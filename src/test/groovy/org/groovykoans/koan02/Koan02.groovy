@@ -21,6 +21,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        predicate1 = true
+        predicate2 = false
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -35,6 +37,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        map['key'] = 'value'
+        list = list.clear()
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -49,6 +53,8 @@ class Koan02 extends GroovyTestCase {
 
         // ------------ START EDITING HERE ----------------------
 
+        s1 = ''
+        s2 = 'something'
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -66,7 +72,8 @@ class Koan02 extends GroovyTestCase {
         // Remove (or change) the offending integer to continue
         // ------------ START EDITING HERE ----------------------
 
-
+        balance[3] = 3
+        println(balance)
         // ------------ STOP EDITING HERE  ----------------------
 
         // Iterate through the list and AND the boolean values of its members.
