@@ -34,6 +34,8 @@ class Koan01 extends GroovyTestCase {
         // Assign our variables the required values to continue...
         // ------------ START EDITING HERE ----------------------
 
+        assertion = true
+        hello = "Hello"
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -56,6 +58,7 @@ class Koan01 extends GroovyTestCase {
         String result
         // ------------ START EDITING HERE ----------------------
 
+        result = "The size of the string '${greeting}' is ${greeting.size()}"
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -71,6 +74,8 @@ class Koan01 extends GroovyTestCase {
         def result
         // ------------ START EDITING HERE ----------------------
 
+        result = map.right + map.left
+        println(result)
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -93,6 +98,7 @@ class Koan01 extends GroovyTestCase {
         // Hint: you can use either Java's add(int, String) or Groovy's plus() method.
         // ------------ START EDITING HERE ----------------------
 
+        groovyList = groovyList.plus(1, javaList[1])
 
         // ------------ STOP EDITING HERE  ----------------------
 
@@ -135,6 +141,7 @@ class Koan01 extends GroovyTestCase {
         def message
         // ------------ START EDITING HERE ----------------------
 
+        message = "Hello ${userService.loggedInUser?.firstName ?: 'Anonymous'}!"
 
         // ------------ STOP EDITING HERE  ----------------------
 
